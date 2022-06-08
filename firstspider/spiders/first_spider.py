@@ -15,7 +15,7 @@ de dados na página de aos fatos.
 """
 
 
-class QuotesSpider(scrapy.Spider):
+class FirstSpider(scrapy.Spider):
     name = "first"  # nome para identificação na execução
 
     def start_requests(self):
